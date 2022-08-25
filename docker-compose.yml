@@ -1,0 +1,10 @@
+version: "3"
+services:
+ rk-bot:
+  build: .
+  image: "rk-bot"
+  container_name: "rk-bot"
+  volumes:
+   - ./files:/app/files
+   - ./src:/app/src
+   - ./.env:/app/.env

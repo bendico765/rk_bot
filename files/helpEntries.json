@@ -1,0 +1,10 @@
+{
+	"profilo":{
+		"brief": "Mostra le statistiche e l'immagine del personaggio",
+		"help": "Reperisce le informazioni del profilo associato all'username.\nLe informazioni mostrate da questo comando sono prelevate direttamente dal sito dei regni."
+	},
+	"posizione":{
+		"brief": "Mostra gli ultimi avvistamenti dell'utente",
+		"help": "Reperisce gli ultimi avvistamenti associati all'username. \nIl numero di ultimi avvistamenti da mostrare è opzionale e se non specificato è impostato ad 1.\n\nNOTA BENE: le informazioni mostate da questo comando sono prelevate da un tool esterno e potrebbero essere inesatte o incomplete."
+	}
+}
