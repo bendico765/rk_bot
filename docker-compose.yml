@@ -4,6 +4,7 @@ services:
   build: .
   image: "rk-bot"
   container_name: "rk-bot"
+  restart: "on-failure"
   volumes:
    - ./files:/app/files
    - ./src:/app/src
